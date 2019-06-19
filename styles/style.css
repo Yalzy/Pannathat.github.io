@@ -1,0 +1,496 @@
+html,body{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    
+}
+
+body{
+    overflow: hidden;
+    
+}
+#social{
+    position:fixed;
+    top:5px;
+    left:20px;
+    z-index:20;
+    
+}
+
+
+a.twitter-btn{
+    
+    color:#fff;
+    font-family: 'Lato','Segoe UI','Lekton', monospace, sans-serif;
+    text-decoration: none;
+
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+}
+
+a.twitter-btn:visited,a.twitter-btn:active,a.twitter-btn:focus{
+    color:#fff;
+}
+
+.twitter-btn *{
+    vertical-align: middle;
+    display: inline-block;
+}
+.twitter-btn .fa{
+    background: #55acee;
+/*    box-shadow: 0 0 2px #fff;*/
+    border-radius: 100%;
+    color:#fff;
+    font-size: 26px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#loading-layer{
+    background:#fff;
+    position:fixed;
+    width:100%;
+    height:100%;
+    text-align: center;
+    z-index:600;
+    top:0;
+    left:0;
+}
+
+.hidden{
+    visibility: hidden;
+}
+#loading{
+    color:#4fbea4;
+    font-size: 48px;
+    margin-top: 25%;
+}
+#header{
+    
+    width:100%;
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+#banner-cont{
+    height:40vh;
+    width:100%;
+    background:url('../images/bg2.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+#banner-bottom-color{
+    margin-top:-2px;
+    height: 50px;
+    background:#a5e3ff;
+    text-align: center;
+}
+
+
+#av-cont{
+    width:70px;
+    height:70px;
+    padding:10px;
+    border-radius:100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#av{
+    border-radius:100%;
+    width:150%;
+    height:150%;
+}
+
+#nav{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 40px;
+    position:relative;
+}
+
+.nav-item{
+    display: inline-block;
+    color:#00649a;
+    font-family:"Lato", "Segoe UI", sans-serif;
+    margin: 10px;
+    margin-left:20px;
+    margin-right:20px;
+    font-size: 24px;
+    font-weight:300;
+    cursor: pointer;
+    transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -khtml-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+}
+
+.nav-item:hover{
+    color:#fff;
+}
+
+#intro{
+    margin-top: 50vh;
+    
+}
+
+#intro-line-1{
+    text-align: center;
+    font-family:"Lato","Segoe UI Light",sans-serif;
+    font-size: 28px;
+    font-weight:400;
+}
+
+#intro-line-2{
+    font-size:17px;
+    font-weight:300;
+}
+
+#intro-line-3{
+    font-size:17px;
+    font-weight:300;
+}
+
+#interests{
+    
+    text-align: center;
+    
+}
+
+.divider-grey{
+    background:#c1c1c1;
+    height:1px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+#divider-1{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.interest{
+    display: inline-block;
+    margin: 5%;
+    font-family:"Lato","Segoe UI Light",sans-serif;
+/*    font-weight: 300;*/
+    vertical-align: middle;
+    height: 140px;
+    width:140px;
+    border-radius:100%;
+    color:#fff;
+    position:relative;
+}
+
+.interest span{
+    position: relative;
+    display: block;
+    top:40%;
+    font-size:20px;
+}
+
+#interest-1 span{
+    top:30%;
+}
+
+#interest-1{
+    background:#ff7474;
+}
+
+#interest-2{
+    background:#87ccbc;
+}
+
+#interest-3{
+    background:#8f77b5;
+}
+
+#about{
+    padding-bottom: 100px;
+}
+#about-1{
+    width:90%;
+    font-size:19px;
+    font-family:"Lato","Segoe UI Light",sans-serif;
+    font-weight:300;
+    margin-left: auto;
+    margin-right: auto;
+    color:#697473;
+}
+
+#about-2{
+    width:90%;
+    font-size:19px;
+    font-family:"Lato","Segoe UI Light",sans-serif;
+    font-weight:300;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.about-link,.about-link:link,.about-link:visited{
+    text-decoration: none;
+    color:#0292be;
+    font-weight:400;
+}
+
+.about-link:hover{
+    color:#ff4500;
+}
+
+#rep{
+    width:100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.section-title{
+    font-size:28px;
+    font-family:"Lato","Segoe UI",sans-serif;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.section-desc{
+    font-size:18px;
+    font-family:"Lato","Segoe UI Light",sans-serif;
+    font-weight:300;
+    margin-bottom:20px;
+    text-align: center;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rep-section{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12px;
+    padding-bottom:12px;
+    box-shadow: 0px 0px 1px #000;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    margin-top: 15px;
+    border-radius:2px;
+    position:relative;
+/*
+    transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -khtml-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+*/
+}
+
+.rep-section-show{
+    font-size:24px;
+    font-family:"Lato","Segoe UI",sans-serif;
+}
+
+.rep-section-show .expand{
+    float:right;
+    margin-right: 15px;
+}
+
+.rep-section-expandable{
+    display: none;
+}
+
+.rep-item{
+    width:250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:19px;
+    font-family:"Lato","Segoe UI",sans-serif;
+    font-weight: 300;
+    color:#5aa297;
+    margin-top: 10px;
+    position:relative;
+    right:20px;
+}
+
+.rep-item .fa{
+    float:left;
+}
+
+.open{
+    box-shadow: 0px 0px 5px #656565;
+}
+
+.show-icon{
+    float:left;
+    position:absolute;
+    left:5%;
+    font-size: 28px;
+}
+
+#globe{
+    color:#20a3c3;
+}
+
+#mobile{
+    margin-left: 5px;
+}
+
+#desktop,#mobile{
+   color:#c33f20; 
+}
+
+#server{
+    color:#4c20c3;
+}
+
+#divider-2{
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+#blog{
+    padding-bottom: 10vh;
+}
+#goto-blog{
+    text-decoration: none;
+    color:white;
+    background:#e05555;
+    border-radius:2px;
+    padding-bottom: 8px;
+    padding-top:8px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-family:"Lato","Segoe UI",sans-serif;
+    display: block;
+    text-align: center;
+    
+}
+
+#latest-post-notice{
+    text-align: center;
+    margin-top:40px;
+    font-size:24px;
+    font-family:"Lato","Segoe UI", sans-serif;
+    
+    
+}
+
+#contact{
+    padding-bottom: 50vh;
+}
+
+#contact-1{
+    font-family:"Lato","Segoe UI Light",sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+
+
+
+@media screen and (max-width: 620px) {
+    body{
+        overflow:auto;
+
+    }
+    .rep-item{
+        right:5px;    
+    }
+    
+    .rep-item .fa{
+        margin-left: 5px;
+    }
+    .rep-section-show{
+        font-size: 18px;    
+    }
+    
+    .rep-section-show .fa{
+        display: none;    
+    }
+    .interest{
+        width:90px;
+        height:90px;
+        
+    }
+    
+    .rep-section-expandable{
+        display:block;
+    }
+    
+    .interest span{
+        font-size:14px;    
+    }
+    .nav-item{
+        font-size:15px; 
+        margin-left: 8px;
+        margin-right: 8px;
+        display: none;
+    }
+    
+    #banner-cont{
+        opacity: 0;
+        height:0;
+    }
+    #banner-bottom-color{
+        height:100px;    
+    }
+    
+/*
+    #intro{
+        margin-top: 50vh;    
+    }
+*/
+    
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+#msg{
+    font-family:"Lato",sans-serif;
+    font-size: 25px;
+    text-align: center;
+    position:absolute;
+    top:20%;
+    width:100%;
+}
+
+#return-link:visited,#return-link:link{
+    font-family:"Lato",sans-serif;
+    font-size: 18px;
+    color:#0cb4ad;
+    text-decoration: none;
+}
+
+#return-link:hover{
+    color:#ce8252;
+}
