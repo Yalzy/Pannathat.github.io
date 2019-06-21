@@ -45,7 +45,7 @@ a.twitter-btn:visited,a.twitter-btn:active,a.twitter-btn:focus{
     vertical-align: middle;
     display: inline-block;
 }
-.twitter-btn .fa{
+.twitter-btn .fab{
     background: #55acee;
 /*    box-shadow: 0 0 2px #fff;*/
     border-radius: 100%;
@@ -333,7 +333,7 @@ a.twitter-btn:visited,a.twitter-btn:active,a.twitter-btn:focus{
     right:20px;
 }
 
-.rep-item .fa{
+.rep-item .fas{
     float:left;
 }
 
@@ -422,14 +422,14 @@ a.twitter-btn:visited,a.twitter-btn:active,a.twitter-btn:focus{
         right:5px;    
     }
     
-    .rep-item .fa{
+    .rep-item .fas{
         margin-left: 5px;
     }
     .rep-section-show{
         font-size: 18px;    
     }
     
-    .rep-section-show .fa{
+    .rep-section-show .fas{
         display: none;    
     }
     .interest{
