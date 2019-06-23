@@ -179,13 +179,13 @@ a.twitter-btn:visited,a.twitter-btn:active,a.twitter-btn:focus{
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    margin-top:40px;
-    margin-bottom: 40px;
+    margin-top:1px;
+    margin-bottom: 10px;
 }
 
 #divider-1{
-    margin-top:40px;
-    margin-bottom:40px;
+    margin-top:1px;
+    margin-bottom:20px;
 }
 .interest{
     display: inline-block;
@@ -365,8 +365,18 @@ a.twitter-btn:visited,a.twitter-btn:active,a.twitter-btn:focus{
 }
 
 #divider-2{
-    margin-top:40px;
-    margin-bottom: 40px;
+    margin-top:1px;
+    margin-bottom: 20px;
+}
+
+#divider-3{
+    margin-top:1px;
+    margin-bottom: 20px;
+}
+
+#divider-4{
+    margin-top:1px;
+    margin-bottom: 20px;
 }
 
 #blog{
